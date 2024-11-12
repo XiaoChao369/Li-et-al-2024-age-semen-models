@@ -93,6 +93,9 @@ library(tidyr)  # for data wrangling
 if (!requireNamespace("data.table", quietly = TRUE))                     
   install.packages("data.table")
 library(data.table)  # for data wrangling
+if (!requireNamespace("randomForest", quietly = TRUE))                     
+  install.packages("randomForest")
+library(randomForest)  # for data wrangling
 
 ## Load model ---------------------------------------------------------
 # https://github.com/XiaoChao369/Li-et-al-2024-age-semen-models
